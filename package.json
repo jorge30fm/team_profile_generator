@@ -2,11 +2,12 @@
   "name": "team_profile_generator",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "index.js",
   "directories": {
     "lib": "lib"
   },
   "scripts": {
+    "start": "node index.js",
     "test": "jest"
   },
   "repository": {
@@ -21,7 +22,9 @@
   },
   "homepage": "https://github.com/jorge30fm/team_profile_generator#readme",
   "dependencies": {
-    "inquirer": "^9.0.0"
+    "inquirer": "8.2.4",
+    "node": "^18.4.0",
+    "node-fetch": "^2.6.1"
   },
   "devDependencies": {
     "jest": "^28.1.1"
