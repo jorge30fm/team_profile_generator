@@ -23,6 +23,7 @@
   "homepage": "https://github.com/jorge30fm/team_profile_generator#readme",
   "dependencies": {
     "inquirer": "8.2.4",
+    "jquery": "^3.6.0",
     "node": "^18.4.0",
     "node-fetch": "^2.6.1"
   },
